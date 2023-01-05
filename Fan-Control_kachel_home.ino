@@ -60,8 +60,8 @@ DHT dht(DHTPIN, DHTTYPE);
 //geel = data
 
 //wifi gegevens
-char* ssid = "hulse";
-char* password = "tc2012meta1";
+char* ssid = "ssid";
+char* password = "password";
 
 //===============voor spanningsgestuurde fan================
 //int fanPin = 5;
@@ -92,15 +92,15 @@ IPAddress gateway(192, 168, 1, 254);
 
 //-------------emoncms info-----------------------------------
 //server ip of dns
-//const char host[] = "192.168.1.10";
-const char host[] = "dekemp.synology.me";
+//const char host[] = "ip-emoncms";
+const char host[] = "ip-emoncms";
 //moet 80 zijn bij local 3333 voor dns
 //#define poort 80 
 #define poort 3333
 //defineer subdirectory (indien nodig) "/emoncms3"
 char basedir[] = "/emoncms";
 //apikey 
-char privateKey[] = "b190a228431eeb68408be26380dca449";
+char privateKey[] = "apikey-emoncms";
 //naam van deze node/esp dit word weergegeven in emoncms logger
 #define node5 "radiator-fan-kachel"
 
