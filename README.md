@@ -9,6 +9,7 @@ Youtube link: https://youtu.be/gY6uuyXsDUs <br />
 - 6pcs 40mm silent fans from amazon, 12 volt 
 - 1pcs 200mm computer fan, 12 volt 
 - ESP8266 arduino board 
+- a power supply, in my case an ATC power supply
 
 
 ## Scematic
