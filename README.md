@@ -1,7 +1,7 @@
 # Chimney-Fan-Booster-ESP8266-arduino-controlled
 Do it youself chimney with fan booster, below you will find a youtube video
-Youtube link: https://youtu.be/gY6uuyXsDUs <br />
-[![IMAGE VIDEO](https://img.youtube.com/vi/gY6uuyXsDUs/0.jpg)](https://www.youtube.com/watch?v=gY6uuyXsDUs)<br />
+Youtube link: https://youtu.be/LbCBmjPsJkQ <br />
+[![IMAGE VIDEO](https://img.youtube.com/vi/LbCBmjPsJkQ/0.jpg)](https://www.youtube.com/watch?v=LbCBmjPsJkQ)<br />
 
 ## Ingredients
 - DHT22 temperature sensor 
@@ -10,7 +10,7 @@ Youtube link: https://youtu.be/gY6uuyXsDUs <br />
 - 1pcs 200mm computer fan, 12 volt 
 - ESP8266 arduino board 
 - a power supply, in my case an ATC power supply
-
+When connected to the WiFi you can control the fans with a slider at the ip address of the webserver, standard the fans will turn on when the temperature is over 30 degrees 
 
 ## Scematic
 All the fans are connected in paralell, you can cut the tach wire 
