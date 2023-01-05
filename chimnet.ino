@@ -94,14 +94,14 @@ IPAddress subnet(255, 255, 255, 0);
 //-------------emoncms info-----------------------------------
 //server ip of dns
 const char host[] = "192.168.1.10";
-//const char host[] = "dekemp.synology.me";
+//const char host[] = "ip-emoncms-server";
 //moet 80 zijn bij local 3333 voor dns
 #define poort 80
 //#define poort 3333
 //defineer subdirectory (indien nodig) "/emoncms3"
 char basedir[] = "/emoncms";
 //apikey
-char privateKey[] = "b190a228431eeb68408be26380dca449";
+char privateKey[] = "privatkeyemoncms";
 //naam van deze node/esp dit word weergegeven in emoncms logger
 #define node5 "radiator-fan-kachel"
 
