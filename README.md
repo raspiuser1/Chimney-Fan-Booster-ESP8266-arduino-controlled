@@ -3,7 +3,7 @@ Do it youself chimney with fan booster, below you will find a youtube video
 Youtube link: https://youtu.be/gY6uuyXsDUs <br />
 [![IMAGE VIDEO](https://img.youtube.com/vi/gY6uuyXsDUs/0.jpg)](https://www.youtube.com/watch?v=gY6uuyXsDUs)<br />
 
-## This are the ingredients:
+## Ingredients
 - DHT22 temperature sensor 
 - IRF50 Fet arduino module for the fans 
 - 6pcs 40mm silent fans from amazon, 12 volt 
@@ -14,3 +14,8 @@ Youtube link: https://youtu.be/gY6uuyXsDUs <br />
 ## Scematic
 All the fans are connected in paralell, you can cut the tach wire 
 ![Naamloos](https://user-images.githubusercontent.com/13587295/210729237-4440a264-8050-47b8-83fe-4a5cdbbf0c63.png)
+
+
+## Setup
+- edit the code with your wifi ssid and password
+- optional you can fill in the emoncms server details if you have one, it will log to your server.
